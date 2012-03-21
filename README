@@ -2,9 +2,15 @@ ctest
 
 ctest is a very tiny unit testing framework for ANSI C.
 
+The entire framework consist of just two source files: ctest.h and ctest.c
+
+To use the ctest framework, just add these two source files directly
+to the C-code to be tested. Instructions for use are in ctest.h file.
+
 Project goals:
 1. small
 2. simple
 3. universal
 4. no dependencies
 5. absolutely bug-free
+
