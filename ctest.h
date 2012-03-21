@@ -30,9 +30,10 @@ print error messages for failures, and keep count.
 To use the CTEST framework, perform to following
 actions:
   1. Call ctest_ctx_alloc to allocate a suite context.
-  2. Call the CTEST macro for each unit test to perform.
+  2. Call the CTEST macro to perform each unit test
+     in the suite.
   3. Check the count of failed tests in the suite by
-     calling ctest_count_failures.
+     calling ctest_count_fail.
   4. Call ctest_ctx_free to free the suite context.
 
 Here is a simple example:
