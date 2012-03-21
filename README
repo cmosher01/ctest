@@ -1,0 +1,10 @@
+ctest
+
+ctest is a very tiny unit testing framework for ANSI C.
+
+Project goals:
+1. small
+2. simple
+3. universal
+4. no dependencies
+5. absolutely bug-free
